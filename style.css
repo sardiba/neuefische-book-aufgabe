@@ -1,0 +1,24 @@
+body {
+  font-family: "verdana";
+}
+
+.holiday-wrapper {
+  min-width: 300px;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.holiday-wrapper > p {
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.holiday-wrapper:nth-child(odd) {
+  background: #d3d3d3;
+}
+
+.fattie {
+  font-family: "Open Sans";
+  font-weight: 600;
+}
